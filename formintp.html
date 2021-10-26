@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Online Form</h1>
+        <form id="form">
+            <div class="section">
+                <label>Username:</label>
+                <input type="text" id="username" required />
+                <br>
+            </div>
+            <div class="section">
+                <label>Password:</label>
+                <input type="password" id="password" required />
+                <br>
+            </div>
+            <div class="section">
+                <label>Email:</label>
+                <input type="email" id="email" required />
+                <br>
+            </div>
+            <div class="section">
+                <label>Date Of Birth:</label>
+                <input type="date" id="date" required />
+                <br>
+            </div>
+            <div class="section">
+                <label>City:</label>
+                <select id="city" required>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Hyderabad</option>
+                    <option>Chennai</option>
+                    <option>Bangalore</option>
+                </select>
+                <br>
+            </div>
+            <p>Programming Languages:</p>
+            <div class="checkbox">
+                <input type="checkbox" id="C" value="C" />C
+                <input type="checkbox" id="Cpp" value="C++" />C++
+                <input type="checkbox" id="Java" value="Java" />Java
+                <input type="checkbox" id="JavaScript" value="JavaScript" />JavaScript
+                <input type="checkbox" id="Python" value="Python" />Python
+            </div>
+            <input type="submit" id="submit">
+        </form>
+
+    </div>
+
+    <script src="form.js"></script>
+
+</body>
+
+</html>
